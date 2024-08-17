@@ -1,0 +1,102 @@
+*{
+    font-family: sans-serif;
+}
+.bg-container{
+    background-color: #f9f9f9;
+    height: 100vh;
+}
+.main-head{
+    color:#42413f;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.second-head, .third-head{
+    font-weight: bold;
+    margin: 20px;
+    color:#42413f;
+    font-size: 24px;
+}
+table, th, td{
+    border-style: solid;
+    border-width: 2px;
+    border-color:lightgray;
+}
+th, td{
+    padding-right:200px;
+    padding-left:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+th{
+    font-weight: 800;
+}
+td{
+    font-weight: 600;
+    color:#42413f;
+}
+table{
+    margin:20px
+}
+.card{
+    box-shadow:2px 2px 8px lightgray;
+    margin:20px;
+    /* margin-left: 10 px; */
+    padding:20px;
+    background-color: white;
+
+}
+label, input,select{
+    margin:10px
+}
+.mail{
+    margin-right:400px;
+}
+small{
+    color: #42413f;
+}
+.mail, .pswd{
+    margin-top: 10px;
+    margin-left:9px;
+}
+.lab{
+    padding-top:4px;
+}
+.select{
+    margin-top:10px;
+    /* font-size: 11px; */
+    /* padding: 6px; */
+    /* height: 40px; */
+}
+.buttons{
+    margin:20px;
+    margin-left:10px;
+}
+.button{
+    border-radius: 0px;
+    margin:5px;
+    margin-left:0px;
+}
+.button-1{
+    width:90px;
+}
+.button-2{
+    width: 70px;
+}
+select{
+    height: 40px;
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-style: solid;
+    border-color:lightgray;
+    height: 35px;
+    width: 160px;
+}
+p{
+    text-align: center;
+    color:gray;
+    /* margin: 0px; */
+}
