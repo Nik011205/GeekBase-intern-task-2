@@ -43,16 +43,16 @@
 
         <h2 class="third-head">Register for a course</h2>
         <div class="card">
-            <form>
+            <form name="form1" action="#">
                 <label for="name" class="lab-2">Name:</label>
                 <input type="text" name="name">
 
                 <div class="card-2 d-flex flex-row">
                     <label for="email" class="lab">Email:</label>
-                    <input type="text" name="email" class="mail">
+                    <input type="email" name="email" class="mail">
 
                     <label for="pswd" class="lab">Password:</label>
-                    <input type="password" name="pswd" class="pswd">
+                    <input type="password" name="pswd" class="pswd" minlength="8">
                 </div>
                 <div class="select">
                     <label for="course">Select Course:</label>
@@ -64,7 +64,7 @@
                         </optgroup>
                     </select>
                     <div class="buttons">
-                        <button class="btn btn-success button button-1 ">Submit</button>
+                        <button class="btn btn-success button button-1">Submit</button>
                         <button class="btn btn-danger button button-2 ">Reset</button>
                     </div>
                 </div>
@@ -73,5 +73,6 @@
         </div>
         <p>Contact us at supportx@example.com</p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
